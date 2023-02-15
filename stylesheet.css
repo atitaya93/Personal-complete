@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.banner-area {
+    background-color: aquamarine;
+    background-position: center center;
+    background-size:cover ;
+    height: 100vh;
+    width: auto;
+    margin: auto;
+}
+.menu {
+    float: right;
+    list-style: none;
+    margin-top:30px;
+}
+.menu ul li{
+    display: inline-block;
+    padding: 20px;
+}
+.menu ul li a{
+    color: rgb(190, 177, 42);
+    text-decoration: none; 
+    padding: 5px 20px;
+    font-family: 'poppins' ,sans-serif;
+    font-size: 20px;
+}
+.banner-text{
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    margin: 20% 30%;
+    text-align: center;
+}
+.banner-text h1{
+    text-align: center;
+    color:rgb(92, 0, 135);
+    
+    text-transform: uppercase;
+    font-size: 60px;
+    font-family: 'poppins' , sans-serif;
+}
+.banner-text p{
+    color: rgb(146, 203, 55);
+    font-size: 18px;
+}
+.banner-text a{
+    border: 1px solid rgb(146, 203, 55);
+    padding: 10px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 20px;
+    display: inline-block;
+    color: rgb(146, 203, 55);
+}
+.banner-text a:hover{
+    background-color: white;
+    color: rgba(68, 25, 109, 0.623);
+    font-weight: bold;
+}
